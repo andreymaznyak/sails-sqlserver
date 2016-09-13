@@ -1,15 +1,103 @@
 {
-  "name": "sails-sqlserver",
-  "version": "0.10.9",
+  "_args": [
+    [
+      {
+        "raw": "sails-sqlserver",
+        "scope": null,
+        "escapedName": "sails-sqlserver",
+        "name": "sails-sqlserver",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\ProjWS\\task-manager-server"
+    ]
+  ],
+  "_from": "sails-sqlserver@latest",
+  "_id": "sails-sqlserver@0.10.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/sails-sqlserver",
+  "_nodeVersion": "0.12.3",
+  "_npmUser": {
+    "name": "tjwebb",
+    "email": "me@traviswebb.com"
+  },
+  "_npmVersion": "2.9.1",
+  "_phantomChildren": {
+    "colors": "0.6.2",
+    "deep-extend": "0.2.11",
+    "minimist": "0.0.8"
+  },
+  "_requested": {
+    "raw": "sails-sqlserver",
+    "scope": null,
+    "escapedName": "sails-sqlserver",
+    "name": "sails-sqlserver",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/sails-sqlserver/-/sails-sqlserver-0.10.8.tgz",
+  "_shasum": "8e2af717b50bd18a99e6b7645ca37f8e60e5f6fd",
+  "_shrinkwrap": null,
+  "_spec": "sails-sqlserver",
+  "_where": "C:\\ProjWS\\task-manager-server",
+  "author": {
+    "name": "Travis Webb",
+    "email": "tjwebb@cnectdata.com"
+  },
+  "bugs": {
+    "url": "https://github.com/cnect/sails-sqlserver/issues"
+  },
+  "bundleDependencies": [
+    "lodash",
+    "mssql",
+    "underscore.string",
+    "waterline-cursor"
+  ],
+  "contributors": [
+    {
+      "name": "balderdashy"
+    },
+    {
+      "name": "Stuart Welham"
+    },
+    {
+      "name": "wxactly"
+    },
+    {
+      "name": "Seich"
+    },
+    {
+      "name": "tjwebb"
+    },
+    {
+      "name": "jaredfromsubway"
+    }
+  ],
+  "dependencies": {
+    "captains-log": "^0.11.11",
+    "lodash": "^3.8.0",
+    "mssql": "^2.1.3",
+    "underscore.string": "^3.0.0",
+    "waterline-cursor": "0.0.5"
+  },
   "description": "Official SQL Server Adapter for Sails / Waterline",
-  "main": "lib/adapter.js",
-  "scripts": {
-    "test": "node test/integration/runner -R spec -b"
+  "devDependencies": {
+    "mocha": "*",
+    "waterline-adapter-tests": "git://github.com/tjwebb/waterline-adapter-tests.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cnect/sails-sqlserver.git"
+  "directories": {},
+  "dist": {
+    "shasum": "8e2af717b50bd18a99e6b7645ca37f8e60e5f6fd",
+    "tarball": "https://registry.npmjs.org/sails-sqlserver/-/sails-sqlserver-0.10.8.tgz"
   },
+  "gitHead": "6ae53197a84e3ab6d0b5ee3baba7224aada07a78",
+  "homepage": "https://github.com/cnect/sails-sqlserver",
   "keywords": [
     "cnect",
     "sails",
@@ -25,33 +113,25 @@
     "mssql",
     "sqlserver"
   ],
-  "author": "Travis Webb <tjwebb@cnectdata.com>",
-  "contributors": [
-    "balderdashy",
-    "Stuart Welham",
-    "wxactly",
-    "Seich",
-    "tjwebb",
-    "jaredfromsubway"
-  ],
   "license": "MIT",
-  "dependencies": {
-    "captains-log": "^0.11.11",
-    "lodash": "^3.8.0",
-    "mssql": "^2.1.3",
-    "underscore.string": "^3.0.0",
-    "waterline-cursor": "0.0.5"
-  },
-  "bundledDependencies": [
-    "lodash",
-    "mssql",
-    "underscore.string",
-    "waterline-cursor"
+  "main": "lib/adapter.js",
+  "maintainers": [
+    {
+      "name": "tjwebb",
+      "email": "me@traviswebb.com"
+    }
   ],
-  "devDependencies": {
-    "waterline-adapter-tests": "git://github.com/tjwebb/waterline-adapter-tests",
-    "mocha": "*"
+  "name": "sails-sqlserver",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cnect/sails-sqlserver.git"
   },
+  "scripts": {
+    "test": "node test/integration/runner -R spec -b"
+  },
+  "version": "0.10.8",
   "waterlineAdapter": {
     "type": "sails-sqlserver",
     "interfaces": [
