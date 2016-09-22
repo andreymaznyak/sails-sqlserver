@@ -88,6 +88,7 @@
   },
   "description": "Official SQL Server Adapter for Sails / Waterline",
   "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
     "mocha": "*",
     "waterline-adapter-tests": "git://github.com/tjwebb/waterline-adapter-tests.git"
   },
@@ -140,5 +141,10 @@
       "associations"
     ],
     "waterlineVersion": "~0.10.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
